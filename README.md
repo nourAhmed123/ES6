@@ -3,5 +3,5 @@ This Repo Contains ECMAScript(ES6) Tasks Done by me during my internship in T-pa
 
 Note:
 
- .PDF File is Attached to know Exactly what Every Question wants 
+ - PDF File is Attached to know Exactly what Every Question wants 
 - Open The Console To see the functionality of each task 
