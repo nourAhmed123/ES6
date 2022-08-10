@@ -27,16 +27,17 @@ width: 800px;
             <label id="Title">Course Details</label>
             <div class="card-header">
               <div class="mb-3">
-                <label for="courseName" class="form-label">Enter Course Name</label>
-                <input type="text" class="form-control" id="courseName" />
+                <label for="course_Name" class="form-label">Enter Course Name</label>
+                <input type="text" class="form-control" id="course_Name" name="courseName" />
                 
-                <label for="courseDuration" class="form-label">Enter Course Duration</label>
+                <label for="courseDuration" class="form-label" name="courseDuration">Enter Course Duration</label>
                 <input type="text" class="form-control" id="courseDuration" />
-                <label for="courseOwner" class="form-label">Enter Course Owner</label>
+                <label for="courseOwner" class="form-label"name="courseOwner">Enter Course Owner</label>
                 <input type="text" class="form-control" id="courseOwner" />
             </div>
             </div>
-      <button type="submit" class="btn btn-primary" onclick="CourseDetails(evnt)">Submit</button>
+      <button type="button" class="btn btn-primary" onclick="createCourse()">Submit</button>
+      <!-- <a class="button"  id="create" onclick="fun()">Create</a> -->
     </form>
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
