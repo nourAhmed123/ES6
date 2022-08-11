@@ -1,5 +1,7 @@
-let x = 9;
-let y = 3;
+let x = prompt("Enter VALUE OF X");
+
+let y = prompt("Enter VALUE OF y");
 [x, y] = [y, x];
-console.log(x);
-console.log(y);
+
+alert("This script Swap the values of x and y using destructuring");
+alert("X=" + x + ",y=" + y);
