@@ -1,3 +1,4 @@
+alert("Please Read Q3 from pdf File and check the Answers in the Console");
 var fruits = ["apple", "strawberry", "banana", "orange", "mango"];
 
 var check = fruits.every(function (val) {
