@@ -29,7 +29,8 @@ obj[Symbol.iterator] = function () {
   };
 };
 
-console.log(obj);
+var n = JSON.stringify(obj);
+console.log(n);
 var value = obj[Symbol.iterator]();
 for (value of obj) {
   console.log(value);
