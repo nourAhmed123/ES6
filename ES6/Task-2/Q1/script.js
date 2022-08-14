@@ -3,6 +3,7 @@ var fibLength = prompt(
 );
 
 var maxNo = prompt("Enter the max no");
+alert("open the console to see the fibonacci series");
 var current;
 var a;
 var b;
