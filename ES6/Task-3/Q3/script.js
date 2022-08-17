@@ -50,6 +50,7 @@ function checkInfo() {
 }
 var p;
 function createProxy() {
+  alert("open the console to see your inputs Accepted or Not");
   p = new Proxy(targetObject, handler);
   p.name = document.getElementById("Name").value;
   p.address = document.getElementById("Address").value;
